@@ -1,0 +1,12 @@
+.cssGrid{
+    width: 100%;
+    height: max-content;
+    background-color: rgb(248, 176, 176);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.product{
+    width: 10rem;
+    height: 10rem;
+}

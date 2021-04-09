@@ -1,0 +1,67 @@
+.widget-item{
+    width:10rem;
+    height:10rem;
+    background-color: rgb(245, 239, 239);
+    margin-left:1rem;
+    margin-bottom:1rem;
+}
+.widget-item:hover{
+    opacity:0.5;
+    background-color: rgb(207, 196, 196);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.widget-item-btn{
+    display: none;
+    padding: 0.2rem;
+    margin-bottom:0.5rem;
+}
+.widget-item:hover .widget-item-btn{
+    display: block;
+
+}
+
+
+/* widget item customize starts */
+
+.widget-item-customize{
+    width:60%;
+    height:60vh;
+    z-index: 100;
+    background-color: rgb(224, 198, 198);
+}
+.widget-item-form{
+    margin-top: 2px;
+    width:100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    /* margin: auto; */
+}
+.widget--item-form-heading{
+    font-size: 1.5rem;
+}
+.widget-item-form > input{
+    width: 95%;
+    border:0px solid black;
+    border-bottom: 1px solid rgb(214, 133, 133);
+    padding:0.4rem;
+    font-size: 1rem;
+    outline:none;
+    margin-bottom: 1rem;
+
+}
+.widget-item-form > textarea{
+    width: 95%;
+    resize: none;
+    padding:0.2rem;
+    outline:none;
+}
+.widget-item-form > button{
+    width:fit-content;
+    padding:0.5rem;
+    font-size: 1.2rem;
+}
